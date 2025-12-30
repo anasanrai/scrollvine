@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-parchment text-ink antialiased;
+}
+
+.prose {
+  @apply prose-headings:font-serif prose-headings:text-ink prose-p:text-ink/80;
+}
+
+.link-underline {
+  @apply border-b border-ink/20 transition hover:border-ink;
+}
